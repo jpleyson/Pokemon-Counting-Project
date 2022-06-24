@@ -1,0 +1,39 @@
+@import url('http://fonts.cdnfonts.com/css/pokemon-solid');
+html { 
+    /* Professor Oak quotes reference */
+    /* https://bulbapedia.bulbagarden.net/wiki/Professor_Oak/Quotes*/
+    background: url(../MainPage/Images/backgroundImg.gif) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  img{
+      width: 25%;
+      height: 25%;
+      text-align: right;
+  }
+  #wrapper{
+      display: flex;
+      margin-left: auto;
+  }
+  #oakText{
+    /* reference for scrolling box: https://www.quackit.com/html/codes/html_scroll_box.cfm */
+  height:200px;
+  width:450px;
+  border:1px solid black;
+  background: white;
+  overflow:auto;
+  position: relative;
+  /* top, right, bottom, left */
+  margin: 30px 20px 0px 10%;
+  padding-left: 10px;
+}
+h3{
+    font-family: 'Pokemon Solid', sans-serif;
+    color: yellow;
+    /* 1 pixel black shadow to left, top, right and bottom */
+    text-shadow: -1px 0 blue, 0 1px black, 1px 0 black, 0 -1px black;
+    margin: auto;
+    text-align: center;
+}

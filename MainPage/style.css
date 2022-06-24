@@ -1,0 +1,38 @@
+html { 
+    /* Professor Oak quotes reference */
+    /* https://bulbapedia.bulbagarden.net/wiki/Professor_Oak/Quotes*/
+    background: url(Images/pokemon-professor-oak-facts-trivia.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#mainBody{
+      /* reference for scrolling box: https://www.quackit.com/html/codes/html_scroll_box.cfm */
+    height:300px;
+    width:450px;
+    border:1px solid black;
+    background: white;
+    overflow:auto;
+    position: relative;
+    margin: 50px auto 20px;
+    padding-left: 10px;
+}
+#countInput{
+      /* border: 5px solid black; */
+      /* div element takes up the whole horizontal plane. To center its contents use text align */
+      text-align: center;
+      /* top, right, bottom, left */
+      /* margin:0 auto; */
+}
+#title{
+  font-family: 'Pokemon Solid', sans-serif;
+    color: yellow;
+    /* 1 pixel black shadow to left, top, right and bottom */
+    text-shadow: -1px 0 blue, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 30px;
+    text-align: center;
+}
+#countByTwo{
+  text-align: center;
+}
